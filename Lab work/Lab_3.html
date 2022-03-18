@@ -27,6 +27,9 @@
         width: 360px;
         margin-top: 100px;
         }
+        .zoom:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
     </style>
   
 </head>
@@ -34,7 +37,7 @@
     <section class="header">
         <h1>Table With Links</h1>
         <hr class="lines">
-        <table class="tables" align="center" border="1px" cellpadding="10" >
+        <table class="tables" align="center" border="1px" cellpadding="20" >
             <tr>
                 <th>List With Links</th>
                 <th>Images</th>
@@ -53,10 +56,10 @@
                         <li><a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a></li>
                     </ul>
                 </td>
-                <td><a href="https://en.wikipedia.org/wiki/Mount_Everest"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" width="170px" height="110px"></a></td>
+                <td><a href="https://en.wikipedia.org/wiki/Mount_Everest"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" width="170px" height="110px" class="zoom"></a></td>
             </tr>
             <tr>
-                <td><a href="https://en.wikipedia.org/wiki/Gautama_Buddha"><img src="https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Meditating-Buddha-Perched-Images-768x576.jpg" width="170px" height="110px"></a></td>
+                <td><a href="https://en.wikipedia.org/wiki/Gautama_Buddha"><img src="https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Meditating-Buddha-Perched-Images-768x576.jpg" width="170px" height="110px" class="zoom"></a></td>
             </tr>
         </table>
     </section>
