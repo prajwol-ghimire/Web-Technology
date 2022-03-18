@@ -4,12 +4,12 @@
     <title>Tables</title>
     <style>
         body{
-            min-height: 100vh;
-    width:100%;
-    background-image: linear-gradient(rgba(141, 135, 135, 0.7),rgba(162, 115, 216, 0.7)),url(https://wallpaperaccess.com/full/166022.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+        min-height: 100vh;
+        width:100%;
+        background-image: linear-gradient(rgba(141, 135, 135, 0.7),rgba(162, 115, 216, 0.7)),url(https://wallpaperaccess.com/full/166022.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
         }
 
         .lines{
@@ -31,32 +31,34 @@
   
 </head>
 <body>
-    <h1>Table With Links</h1>
-    <hr class="lines">
-    <table class="tables" align="center" border="1px" cellpadding="10" >
-        <tr>
-            <td>List With Links</td>
-            <th>Images</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Countries
-            <ol type="A">
-                <li><a href="https://en.wikipedia.org/wiki/Nepal">Nepal</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/India">India</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/China">China</a></li>
-            </ol>
-            Capitals
-            <ul type="disc">
-                <li><a href="https://en.wikipedia.org/wiki/Kathmandu">Kathmandu</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Delhi">Delhi</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a></li>
-            </ul>
-            </td>
-            <td><a href="https://en.wikipedia.org/wiki/Mount_Everest"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" width="170px" height="110px"></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Gautama_Buddha"><img src="https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Meditating-Buddha-Perched-Images-768x576.jpg" width="170px" height="110px"></a></td>
-        </tr>
-    </table>
+    <section class="header">
+        <h1>Table With Links</h1>
+        <hr class="lines">
+        <table class="tables" align="center" border="1px" cellpadding="10" >
+            <tr>
+                <th>List With Links</th>
+                <th>Images</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Countries
+                    <ol type="A">
+                        <li><a href="https://en.wikipedia.org/wiki/Nepal">Nepal</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/India">India</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/China">China</a></li>
+                    </ol>
+                    Capitals
+                    <ul type="disc">
+                        <li><a href="https://en.wikipedia.org/wiki/Kathmandu">Kathmandu</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Delhi">Delhi</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a></li>
+                    </ul>
+                </td>
+                <td><a href="https://en.wikipedia.org/wiki/Mount_Everest"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" width="170px" height="110px"></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Gautama_Buddha"><img src="https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Meditating-Buddha-Perched-Images-768x576.jpg" width="170px" height="110px"></a></td>
+            </tr>
+        </table>
+    </section>
 </body>
 </html>
