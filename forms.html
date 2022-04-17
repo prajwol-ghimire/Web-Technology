@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Simple form</title>
+    <link href="style.css" rel="stylesheet" >
+  </head>
+  <body>
+    <h2 align="center">Sign up form</h2>
+    <hr />
+    <form class="table" method="post" action="hello.html">
+        <table border="0" cellspacing="0" align="center" >
+            <tr>
+                <th colspan="2" align="left" class="heading">SIGN UP</th>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input
+                    type="text"
+                    name="username"
+                    required="required"
+                    size="20"
+                    placeholder="First Name"
+                  /></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td> <input
+                    type="text"
+                    name="username"
+                    required="required"
+                    size="20"
+                    placeholder="Last Name"
+                  /></td>
+            </tr>
+            <tr>
+                <td> Screen Name:</td>
+                <td><input
+                    type="text"
+                    name="username"
+                    required="required"
+                    placeholder="Screen Name"
+                  /></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                <input type="date" class="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><label><input type="radio" value="M" name="gender" />Male</label>
+                    <label><input type="radio" value="F" name="gender" /> Female</label></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><select name="country">
+                    <option>Select Country</option>
+                    <option>Nepal</option>
+                    <option>China</option>
+                    <option>Australia</option>
+                    <option>America</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td> <input type="email" name="useremail" placeholder="example@abc.com" /></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="contact" name="userphone" maxlength="10" minlength="10" /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="userpass" maxlength="10" minlength="10" /></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="userpass" maxlength="10" minlength="10" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="checkbox" value="A" name="agree" required />I agree to the Terms of Use</td>
+            </tr>
+            <tr >
+                <td  class="terms" align="right" colspan="2"><input class="submit" type="submit" />
+                <input class="reset" type="reset"/></td>
+            </tr>
+    </table>
+    </form>
+    <footer>
+    <center>&copy;Bhabishwar Khanal</center>
+    </footer>
+  </body>
+</html>

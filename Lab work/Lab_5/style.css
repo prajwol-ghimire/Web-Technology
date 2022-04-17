@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Photos/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #caa2a2;
+    display: block;
+    margin: left;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%; 
+}
+h3{
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    text-underline-position: below;
+    text-decoration: underline
+}
+.iframe{
+    margin-left: 1380px;
+    align-self: auto;
+    position: sticky;
+}
+h1{
+    margin-top: 50px;
+    color: rgb(10, 5, 5);
+    text-decoration: underline;
+    text-align: center;
+}
+.imagesphoto{
+    width: 180px;
+    height: 180px; 
+    overflow: hidden;
+    border-radius: 40%;
+}
+.backgrounds{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(155, 161, 185, 0.7),rgba(30, 61, 184, 0.7)),url(Photos/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.background_about{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(89, 218, 179, 0.7),rgba(18, 126, 63, 0.7)),url(Photos/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.table{
+    margin-top: 75px;
+    margin-left: 150px;
+    border-collapse: collapse;
+    color: rgb(235, 228, 228);
+    font-size: 50px;
+}
+th,td{
+    padding: 10px; 
+}
