@@ -61,11 +61,12 @@ nav img{
 
 .text-box h1{
     font-size: 62px;
+    color: rgb(58, 52, 52);
 }
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    color: rgb(252, 222, 222);
 }
 
 .more{
